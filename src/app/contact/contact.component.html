@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="contact.component.css">
+</head>
+<body>
+
+<h1>Nous contacter</h1>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Nom</label>
+    <input type="text" id="fname" name="firstname" placeholder="Votre Nom..">
+
+    <label for="lname">Prénom</label>
+    <input type="text" id="lname" name="lastname" placeholder="Votre Prénom..">
+
+    <label for="lmail">Adresse Mail</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mail@example.com">
+
+    <label for="country">Pays</label>
+    <select id="country" name="country">
+    <option value="usa">Tunisia</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">Algerie</option>
+      <option value="usa">Maroc</option>
+      <option value="usa">France</option>
+      <option value="usa">Italy</option>
+      <option value="usa">spain</option>
+    </select>
+
+    <label for="subject">Sujet</label>
+    <textarea id="subject" name="subject" placeholder="Écris quelque chose.." style="height:200px"></textarea>
+
+    <input type="submit" value="Envoyer">
+  </form>
+</div>
+
+</body>
+</html>

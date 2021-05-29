@@ -1,0 +1,9 @@
+body {
+    height: 650 px; 
+    background : url('../../assets/feuille1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 91.5vh;
+  }
+*{font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
